@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/top_genius_songs"
+
+TopGeniusSongs::CLI.new.call
