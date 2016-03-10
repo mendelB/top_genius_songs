@@ -27,7 +27,7 @@ class TopGeniusSongs::CLI
 	end
 
 	def help
-		puts "Type 'list' to list songs, or any number of the song for more info..."
+		puts "Type 'list' to list songs, or any number of the song for the lyrics!"
 		print ">>  "
 	end
 
@@ -36,7 +36,9 @@ class TopGeniusSongs::CLI
 		TopGeniusSongs::Song.all.each.with_index(1) do |song, index|
 			puts "#{index}. \"#{song.title}\" By \"#{song.artist}\""
 			print "Description:"
-			puts "#{song.description[0..100]}..."
+			puts "#{song.description[0..300]}..."
+			puts '     -----------------------------         '
+			puts ''
 		end
 	end
 end

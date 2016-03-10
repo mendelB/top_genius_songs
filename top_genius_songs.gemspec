@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Scrapes the songs on the 'genius.com' homepage}
   spec.description   = %q{Lists top songs on Genius, and allows user to select song for lyrics}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/mendelB/top_genius_songs"
   spec.license       = "MIT"
   spec.executables   = ["top-genius-songs"]
 
